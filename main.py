@@ -4,7 +4,7 @@ source_list = list(map(int, input().split()))  # Enter a source list
 print(source_list)
 
 
-def ListReverse(List=source_list):
+def ListReverse(List=source_list) -> list:
     """Function that reverse a list"""
     destination_list = List[::-1]
 
