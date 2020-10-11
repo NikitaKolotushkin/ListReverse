@@ -1,6 +1,5 @@
 print("Please, input a few numbers for creating a list: ")
 
-
 source_list = list(map(int, input().split()))  # Enter a source list
 print(source_list)
 
